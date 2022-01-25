@@ -60,8 +60,8 @@ app.use( cors(corsOptions) );
 // AWS!!!!!!!!!!!!1
 const fs=require('fs');
 const AWS = require('aws-sdk');
-const id = 'AKIAXU3SCGJX3KBU42EI'; // 키 값
-const pw = 'M36CFGm1CeW2LHIaNbdh0zyn7JXcqRsFOrLK7mr/'; //  시크릿 키
+const id = ''; // 키 값
+const pw = ''; //  시크릿 키
 const bucket_name = 'lifeflavor'; //버킷 이름
 const s3=new AWS.S3({
   accessKeyId: id,
